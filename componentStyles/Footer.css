@@ -1,0 +1,135 @@
+.footerStyle {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 1.5rem;
+    background: transparent; 
+    color: white;
+    z-index: 1;      
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 41%;
+}
+
+.zoneButtonContainer {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px rgba(0, 0, 0, 0.5);
+    transition: background-color 0.4s ease;
+}
+
+.zoneButtonContainer:hover {
+    background-color: #568D82;
+    text-decoration: white;
+}
+
+.zoneButtonContainer text {
+    text-shadow: 0 1px rgba(0, 0, 0, 0.5);
+    transition: fill 0.4s ease;
+} 
+
+.toggleButtons {
+    justify-content: center;
+    position: relative;
+    flex-shrink: 0;
+}
+
+.toggleButtonContainer {
+    background: white;
+    box-shadow: 0 2px rgba(0, 0, 0, 0.5);
+    transition: background-color 0.4s ease;
+}
+
+.toggleButtonContainer:hover {
+    background-color: #568D82;
+}
+
+.toggleButtonContainer text {
+    text-shadow: 0 1px rgba(0, 0, 0, 0.5);
+} 
+
+#firstButton {
+    border-radius: 16px 0 0 16px;
+}
+
+#lastButton {
+    border-radius: 0 16px 16px 0;
+}
+
+.expandableContainer {
+  position: relative;
+  width: 300px; /* Must match expanded width */
+  height: 60px;
+  overflow: visible; /* Allow expansion outside */
+}
+
+.socialMediaWrapper {
+  display: flex;
+  position: relative;
+  gap: 10px;
+}
+
+.socialMediaButton {
+  font-family: 'Poppins', sans-serif;
+  color: black;
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;
+  background: white;
+  box-shadow: 0 2px rgba(0, 0, 0, 0.5);
+  text-shadow: 0 1px rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  overflow: hidden;
+  transition: width 0.5s ease, transform 0.5s ease, background-color 0.5s ease, color 0.5s ease;
+  cursor: pointer;
+  padding: 0 11px;
+  box-sizing: border-box;
+}
+
+.socialMediaButton:hover {
+  width: 135px;
+}
+
+.socialMediaIcon {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.socialMediaIcon img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-left: 8px;
+}
+
+.socialMediaButton span {
+  opacity: 0;
+  white-space: nowrap;
+  transition: opacity 0.3s ease;
+  font-size: 14px;
+  margin-left: 13px;
+}
+
+.socialMediaButton:hover span {
+  opacity: 1;
+  color: white;
+}
+
+#website:hover {
+    background-color: #568D82;
+}
+
+#linkedin:hover {
+    background-color: #0072b1;
+}
+
+#instagram:hover {
+    background-color: #d62976;
+}

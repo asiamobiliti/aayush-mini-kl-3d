@@ -1,0 +1,40 @@
+.tooltip-style {
+    position: absolute;
+    background: white;
+    padding: 10px;
+    border-radius: 12px;
+    box-shadow: 0 0 6px rgba(0,0,0,0.3);
+    pointer-events: none;
+    z-index: 10;
+    font-family: Montserrat, sans-serif;
+    line-height: 2;
+}
+.bus-horizontal-row-style {
+    border: none;
+    width: 45%;
+    border-top: 4px solid #568D82;
+    margin-left: 0px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 0px
+}
+
+.stop-horizontal-row-style {
+    border: none;
+    width: 95%;
+    border-top: 4px solid #FF5733;
+    margin: 0 10px 10px 0;
+}
+
+.person-horizontal-row-style {
+    border: none;
+    width: 65%;
+    border-top: 4px solid #191970;
+    margin: 0 0 10px 0;
+}
+
+.stop-timing-style {
+    text-align: justify;
+    margin: 4px;
+    font-weight: 600;
+}
